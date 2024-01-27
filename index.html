@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio Álvaro Barrena Revilla" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img src="./assets/png/alvaro.png" alt="Álvaro Barrena Revilla" class="header__logo-img"/>
+          </div>
+          <span class="header__logo-sub">Álvaro Barrena Revilla</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link">Inicio</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">Sobre mí</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">Proyectos</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu"/>
+            <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none"/>
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html">Inicio</a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about">Sobre mí</a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects">Proyectos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">¡Bienvenido a mi portfolio!</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Soy un desarrollador web en constante mejora. Siempre estoy buscando nuevas oportunidades para aprender y crecer en mi campo. Echa un vistazo a mis Proyectos para ver ejemplos de mi trabajo.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">Proyectos</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/alvarobarrena/" class="home-hero__social-icon-link">
+            <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon"/>
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://github.com/alvarobarrena02" class="home-hero__social-icon-link">
+            <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon"/>
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">Sobre mí</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">¡Conóceme!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">Hola! Me llamo <strong>Álvaro</strong>, soy un apasionado por el desarrollo web titulado en el grado superior de <strong>Desarrollo de Aplicaciones Web</strong> y en grado medio de <strong>Sistemas Microinformáticos y Redes</strong> por lo que tengo experiencia tanto en la parte de <strong>Desarrollo</strong> como de <strong>Sistemas</strong></p>
+              <p class="about__content-details-para">
+                Tengo buena capacidad de <strong>trabajo en equipo</strong>, me considero una persona con <strong>liderazgo</strong> y me sé <strong>adaptar</strong> a cualquier situación. Siempre estoy mejorando en cualquier aspecto de mi vida.
+              </p>
+            </div>
+            <a href="mailto:alvaro.barrena02@gmail.com" class="btn btn--med btn--theme dynamicBgClr">Contacto</a>
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">Principales tecnologías</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">NodeJS</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">Angular</div>
+              <div class="skills__skill">Svelte</div>
+              <div class="skills__skill">Ionic</div>
+              <div class="skills__skill">PHP</div>
+              <div class="skills__skill">Laravel</div>
+              <div class="skills__skill">Python</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Proyectos</span>
+        </h2>
+        <div class="projects__content">
+        <!-- Proyecto 1 -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/dubo.png" alt="DuBo Martial Arts" class="projects__row-img" loading="lazy"/>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Proyecto 1: DuBo Martial Arts</h3>
+              <p class="projects__row-content-desc">
+                Gimnasio de artes marciales
+              </p>
+              <div class="skills">
+                <div class="skills__skill">HTML5</div>
+                <div class="skills__skill">CSS3</div>
+                <div class="skills__skill">ES8</div>
+                <div class="skills__skill">ASINCRONÍA</div>
+                <div class="skills__skill">PROMESAS</div>
+              </div>
+              <a href="https://github.com/alvarobarrena02/dubo-martial-arts.git" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Ver más</a>
+            </div>
+          </div>
+
+          <!-- Proyecto 2 -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/blog.png" alt="Blog de publicaciones" class="projects__row-img" loading="lazy"/>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Proyecto 2: Blog de publicaciones para autores</h3>
+              <p class="projects__row-content-desc">
+                Blog de publicaciones con CRUD en MySQL
+              </p>
+              <div class="skills">
+                <div class="skills__skill">HTML5</div>
+                <div class="skills__skill">CSS3</div>
+                <div class="skills__skill">PHP8</div>
+                <div class="skills__skill">SESIONES</div>
+                <div class="skills__skill">COOKIES</div>
+                <div class="skills__skill">PERSISTENCIA</div>
+              </div>
+              <a href="https://github.com/alvarobarrena02/blog-publicaciones.git" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Ver más</a>
+            </div>
+          </div>
+
+          <!-- Proyecto 3 -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/png/tareas.png" alt="Gestor de tareas en Laravel" class="projects__row-img" loading="lazy"/>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Proyecto 3: Gestor de tareas</h3>
+              <p class="projects__row-content-desc">
+                Gestor de tareas con CRUD en MySQL con Laravel
+              </p>
+              <div class="skills">
+                <div class="skills__skill">Laravel 8</div>
+                <div class="skills__skill">PHP</div>
+                <div class="skills__skill">MVC</div>
+                <div class="skills__skill">Eloquent</div>
+                <div class="skills__skill">Blade Templating</div>
+                <div class="skills__skill">MySQl</div>
+                <div class="skills__skill">PHPUnit</div>
+                <div class="skills__skill">API Restful</div>
+                <div class="skills__skill">Middleware</div>
+              </div>
+              <a href="https://github.com/alvarobarrena02/tareas-laravel-project/tree/master" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Ver más</a>
+            </div>
+          </div>
+
+            <!-- Proyecto 4 -->
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img src="./assets/jpg/tienda.jpg" alt="Tienda de pedidos" class="projects__row-img" loading="lazy"/>
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Proyecto 4: Tienda - Python</h3>
+              <p class="projects__row-content-desc">
+                Tienda de pedidos en consola
+              </p>
+              <div class="skills">
+                <div class="skills__skill">Python 3.12</div>
+              </div>
+              <a href="https://github.com/alvarobarrena02/APP-Pedidos.git" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Ver más</a>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Contacto</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alvarobarrena/">
+                <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon"/>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://github.com/alvarobarrena02">
+                <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon"/>
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Álvaro Barrena Revilla</h4>
+            <p class="main-footer__short-desc">
+              Desarollador web en constante mejora
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">&copy; Copyright 2024. Hecho por<a rel="noreferrer" target="_blank" href="https://github.com/alvarobarrena02/">Álvaro Barrena Revilla</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
